@@ -1,4 +1,4 @@
 swifttime.github.io
 ===================
 
-Jekyll source for the Swift Time blog.
+Jekyll source for the SwiftTime blog.

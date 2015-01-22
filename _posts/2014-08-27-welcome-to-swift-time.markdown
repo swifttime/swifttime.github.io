@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Swift Time"
+title:  "Welcome to SwiftTime"
 date:   2014-08-27 20:06:18
 categories: swifttime update
 author: Rick Windham (github.com/rickw)
