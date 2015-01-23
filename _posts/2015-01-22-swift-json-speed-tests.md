@@ -10,7 +10,7 @@ author: Rick Windham (github.com/rickw)
 
 The other day someone sent me this article [Swift Performance: Too Slow for Production](http://blog.sudeium.com/2014/12/10/swift-performance-too-slow-for-production/){:target="_blank"}, and after reading it I decided to do some testing myself. In the comments I found this repo [https://github.com/mnem/swift-json-speedtests](https://github.com/mnem/swift-json-speedtests){:target="_blank"} and forked it [(my fork)](https://github.com/swifttime/swift-json-speedtests){:target="_blank"}. 
 
-I wanted to see how a pure Swift code base would preform, and after much digging&#8212;it seems almost all of the JSON parsing for iOS in Swift uses `NSJSONSerialization`&#8212;I found this library [json-swift](https://github.com/owensd/json-swift){:target="_blank"} and decided to write another test class using all Swift code. The easiest way to do this was simply to put the source code of the new libary in my fork of the speed test repo. 
+I wanted to see how a pure Swift code base would preform, and after much digging&#8212;it seems almost all of the JSON parsing for iOS in Swift uses `NSJSONSerialization`&#8212;I found this library [json-swift](https://github.com/owensd/json-swift){:target="_blank"} and decided to write another test class using all Swift code. The easiest way to do this was simply to put the source code of the new library in my fork of the speed test repo. 
 
 The results were actually very interesting after changing optimzation levels.
 
